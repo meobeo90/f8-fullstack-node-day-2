@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "postId": "1",
+    "content": "Nội dung bài đăng 1 hay quá",
+    "createAt": "2026-02-17T18:51:38.085Z"
+  },
+  {
+    "id": 3,
+    "postId": "2",
+    "content": "Nội dung bài đăng 2 quá xuất sắc",
+    "createAt": "2026-02-17T18:52:15.687Z"
+  },
+  {
+    "id": 4,
+    "postId": "2",
+    "content": "Nội dung bài đăng 2 tuyệt vời",
+    "createAt": "2026-02-17T18:52:33.746Z"
+  }
+]

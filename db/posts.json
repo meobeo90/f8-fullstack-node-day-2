@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Bài đăng 1",
+    "content": "Đây là bài đăng đầu tiên",
+    "createAt": "2026-02-17T18:35:40.698Z"
+  },
+  {
+    "id": 3,
+    "title": "Bài đăng 3",
+    "content": "Đây là bài đăng thứ 3",
+    "createAt": "2026-02-17T18:39:38.087Z"
+  },
+  {
+    "id": 4,
+    "title": "Bài đăng 4",
+    "content": "Đây là bài đăng thứ 4",
+    "createAt": "2026-02-17T18:39:54.834Z"
+  },
+  {
+    "id": 5,
+    "title": "Bài đăng 5",
+    "content": "Đây là bài đăng thứ 5",
+    "createAt": "2026-02-17T18:40:24.605Z"
+  }
+]
