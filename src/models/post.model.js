@@ -20,7 +20,7 @@ function create(data) {
     id: uniqId,
     title: data.title,
     content: data.content,
-    createAt: new Date().toISOString(),
+    createdAt: new Date().toISOString(),
   };
   posts.push(newPost);
   saveDB(RESOURCE, posts);

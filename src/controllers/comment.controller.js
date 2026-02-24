@@ -13,7 +13,6 @@ const getOne = (req, res) => {
 
 const create = (req, res) => {
   const { postId, content } = req.body;
-  console.log(req.body);
 
   if (!postId || !content) {
     return res.status(400).json({ message: "Missing data" });

@@ -16,15 +16,15 @@ function getById(id) {
 function create(data) {
   const comments = loadDB(RESOURCE);
   let uniqId = comments.length ? Math.max(...comments.map((p) => p.id)) + 1 : 1;
-  const newPost = {
+  const newComment = {
     id: uniqId,
     postId: data.postId,
     content: data.content,
-    createAt: new Date().toISOString(),
+    createdAt: new Date().toISOString(),
   };
-  comments.push(newPost);
+  comments.push(newComment);
   saveDB(RESOURCE, comments);
-  return newPost;
+  return newComment;
 }
 
 // PUT
